@@ -1,87 +1,291 @@
-
 # Linguagem de programação Java
-  ## Paradigmas de Programação
-  Java tem três paradigmas centrais, ser uma linguagem programada a objetos, imperativa e funcional.
-  
-  ## Modelo de Tipagem de dados
- Classificação de tipagem da linguagem Java:
- - Forte
- - Estática
-  ## Modelo de construção da Linguagem  
-  ## Estilo de código
-  Java usa dois estilos de código, para nomes de métodos e funções camelCase, e para os nomes de classes usa PascalCase. A identação não é obrigatória em Java, mas continua sendo uma boa prática.
-  ## Versões
- 
- ### Java 1.8
- #### Novas funcionalidades 
- As principais funções da versão do Java v1.8:
- - Default Methods em interfaces
- - Lambda e Functional interfaces
- - Method References
- - Stream
- - Nova API de Datas
- ### Java 11
- #### Novas funcionalidades
- As principais funções da versão do Java v11:
- - Executar um arquivo Java com apenas um comando
- - Adicionados métodos na classe String
- - Ler e gravar String de/para arquivos
- - Flight recorder (Perfilar a aplicação em tempo de execução e guarda os resultados em  um arquivo '.jfr')
- ### Java 18
- #### Novas funcionalidades
- As novas funcionalidades da versão do Java v18:
- - UTF- 8 por padrão
- - Servidor Web Simples
- - Trechos de código na Documentação da API Java
- - Reimplementação do Núcleos de Reflexão com Method Handles
- - API Vector
- - Resolução de Endereços de Internet
- - API para memória e funções externas
- - Correspondência de Padrões para switch
- - Descontinuação da finalização para remoção
- ### Java 19 
- #### Novas funcionalidades
- As novas funcionalidades que chegarão para a versão do Java v19:
- - API de memória
- - API de vetor
- - Função estrangeira
-  ## Palavras reservadas
- Java tem 52 palavras reservadas, e elas são separadas da seguinte forma:
- - Modificadores de acesso: public, protected, default e private;
- - Modificadores de classes, variáveis ou métodos: abstract, class, extends, final, implements, interface, native, new, static, strictfp, synchronized, transient, volatile;
- - Controle de fluxo dentro de um bloco de código: break, case, continue, default, do, else, for, if, instanceof, return, switch, while;
- - Tratamento de erros: assert, catch, finally, throw, try;
- - Controle de pacotes: import, package;
- - Primitivos: boolean, byte, char, double, float, int, long, short;
- - Variáveis de referência: super, this;
- - Retorno de um método: void;
- - Palavras reservadas não utilizadas: const, goto;
-  ## Ambiente de Desenvolvimento e Ferramentas
-  ### Documentação oficial
-  - Documentação oficial pela Oracle: https://docs.oracle.com/en/java/
-  ### JDK
-  - Link para o JDK(Java Developer Kit) oficial pela Oracle: https://www.oracle.com/java/technologies/downloads/
-  ### IDEs
-  - Algumas das principais IDEs usadas para desenvolver para Java são Eclipse, NetBeans, IntelliJ e VSCode;
- #### Como criar um projeto Java em uma IDE
- - A criação de um projeto java é mais simples em IDEs como Eclipse ou IntelliJ, já que diferente do VSCode não precisam de mais extensões para funcionar, mas se quiser mesmo assim usar o VSCode precisa antes baixar as extensões para trabalhar com Java;
-  ## Mercado
-   ### Popularidade 
-   - Java é atualmente uma das linguagens de programação mais utilizada, isso se deve a sua flexibilidade. Sua idade também ajuda ela a manter uma boa posição nas linguagens mais utilizadas, já que muitas empresas ainda fazem uso de códigos legado em Java, ou também sistemas inteiros em Java que não valem a pena serem refeitos em outras linguagens.
- #### Tiobe
- - Tiobe é um índice construído pela comunidade de programação, basicamente uma lista ordenada de linguagens de programação, classificada pela frequência de pesquisas na internet usando o nome da linguagem como palavra chave. Segundo o site Java está em terceiro lugar nas linguagens mais procuradas atualmente.
- - Data da consulta: 02/09/2022
- - Link do site:  https://www.tiobe.com/tiobe-index/
- #### Survey da Stackoverflow 
- #### Survey da Jetbrains 
-  ### Vagas e salários 
-  #### Survey da Stackoverflow 
-  #### Survey da Jetbrains  
-  ### Áreas de aplicações da linguagem Java 
-   #### Survey da Stackoverflow 
- #### Survey da Jetbrains  
-  ### Principais bibliotecas/frameworks 
- #### Survey da Stackoverflow 
- #### Survey da Jetbrains  
+Revisão sobre a linguagem Java
+
+## Tópicos de Estudos
+
+* [Linguagem de programação Java](01.md)
+  * Paradigmas de Programação
+  * Modelo de Tipagem de dados
+  * Modelo de construção da Linguagem  
+  * Estilo de código
+  * Versões
+    * Java 1.8
+      * Novas funcionalidades 
+    * Java 11
+      * Novas funcionalidades
+    * Java 18
+      * Novas funcionalidades
+    * Java 19 
+      * Novas funcionalidades
+  * Conjunto de palavras reservadas
+  * Ambiente de Desenvolvimento e Ferramentas
+    * Documentação oficial
+    * JDK
+    * IDEs
+      * Como criar um projeto Java em uma IDE
+  * Mercado
+    * Popularidade 
+      * Tiobe
+      * Survey da Stackoverflow 
+      * Survey da Jetbrains 
+    * Vagas e salários 
+      * Survey da Stackoverflow 
+      * Survey da Jetbrains  
+    * Áreas de aplicações da linguagem Java 
+      * Survey da Stackoverflow 
+      * Survey da Jetbrains  
+    * Principais bibliotecas/frameworks 
+      * Survey da Stackoverflow 
+      * Survey da Jetbrains  
+* [Hello World](02.md)
+  * Estrutura mínima de um código Java
+  * Nome do arquivo e Extensão
+  * Nome da classe
+  * Método main
+  * Escrever dados no console
+  * Indentação de código
+  * Delimitação de uma instrução
+  * Delimitação de bloco de instruções
+  * Compilação e Execução via linha de comando
+* [Tipos de Dados e operadores](03.md)
+  * Tipos de Dados
+  * Declarações de variáveis
+  * Nomes válidos para variáveis e boas práticas 
+  * Atribuição de valores
+  * Operadores
+    * Operadores aritméticos
+    * Operadores booleanos
+  * Conversão de tipos de dados
+* [Saída de Dados](04.md)
+  * Método System.out.println
+  * Método System.out.print
+  * Exibir o valor de uma variável
+  * Exibir o valor de um decimal  
+* Classe Math
+  * Definição
+  * Principais operações 
+* String
+  * Concatenação de String
+  * Principais operações sobre String
+  * Comparação de String
+  * Diferença entre String e caracter
+* Entrada de Dados
+  * Classe Scanner
+    * Obter um valor inteiro
+    * Obter um valor decimal
+    * Obter um valor de texto 
+* 8. [Fluxo de Controle](08.md)
+  * Estruturas de Decisões
+    * if-else-then
+    * switch
+  * Estruturas de Repetições
+    * for
+    * while
+    * do-while 
+    * Comandos break e continue
+* 9. [Arranjos e Matrizes](09.md)
+  * Definição matemática
+  * Declaração de arranjos
+  * Declaração de matrizes
+  * Percorrer arranjos
+  * Percorrer matrizes
+    * Linha a linha
+    * Coluna a coluna
+    * Em diagonal 
+  * Utilizar arranjos e matrizes como parâmetros de métodos 
+  * Utilizar arranjos e matrizes como retorno de métodos 
+* 10. Tratamento de Exceções
+  * Definição
+  * Exceções comuns
+    * Divisão por zero
+    * Conversão de tipos de dados inválidos
+    * Acessar uma posição inválida em um arranjo
+    * Acessar uma String nula
+  * Bloco para capturar uma exceção 
+  * Bloco para capturar diferentes exceções 
+  * Bloco finally
+  * Lançar uma exceção
+* 11. Métodos estáticos
+  * Estrutura de declaração de um método estático
+  * Nomes válidos e boas práticas 
+  * Parâmetros 
+  * Retorno
+  * Utilização de métodos estáticos 
+    * Disponíveis na mesma classe
+    * Disponíveis em outra classe/arquivo. 
+  * Recursão 
+* 12. Classe
+  * Definição
+    * Representação de classe e objeto na UML
+    * Diferença entre classe e objeto
+  * Atributos
+  * Métodos
+  * Construtor 
+  * Objeto
+  * Inicialização de um objeto 
+  * Utilização de um objeto
+  * Comparação de objetos
+  * Método toString
+  * Visibilidade de atributos e métodos
+    * Público
+    * Privado 
+  * Sobrecarga de métodos
+  * Sobrecarga de construtores
+* 13. Pacotes 
+  * Definição
+     * Representação de pacotes na UML
+  * Definição de um pacote em uma classe
+  * Importando uma classe de um pacote diferente
+  * Visibilidade de classes, atributos e métodos
+     * Default/Pacote  
+  * Pacote default
+    * Importar uma classe em um pacote default 
+* Escopo de classe e objeto
+  * Definição 
+  * Palavra reservada static 
+* Herança
+  * Definição
+     * Representação de herança na UML
+  * Criação de uma classe que realiza herança 
+  * Sobreescrita de métodos
+  * Polimorfismo
+    * Conversão de tipos 
+  * Visibilidade de atributos e métodos
+     * Protegido
+  * Palavra reservada super 
+     * Encadeamento de construtor 
+     * Encadeamento de método
+* Interface
+  * Definição
+     * Representação de interface na UML
+  * Criação de uma classe que implementa uma interface
+  * Sobreescrita de métodos
+  * Polimorfismo
+    * Conversão de tipos 
+* Classe abstrada
+  * Definição
+     * Representação de classe abstrata na UML
+  * Criação de uma classe que extende uma classe abstrata
+  * Polimorfismo
+    * Conversão de tipos 
+* Coleções 
+  * Definição
+  * List e Arraylist 
+    * Aplicações
+    * Declaração
+    * Utilização
+      * Adicionar elementos
+      * Acessar elementos
+      * Atualizar elementos 
+      * Remover elementos 
+  * Map e HashMap
+    * Aplicações 
+    * Declaração
+    * Utilização
+      * Adicionar elementos
+      * Acessar elementos
+      * Atualizar elementos 
+      * Remover elementos 
+* Tipo Enumerado
+  *  Definição
+     * Representação de tipos enumerados na UML
+* Representação de tempo
+  * Classe Date
+  * Classe Calendar
+  * API Date/Time Java 8
+    * LocalDate
+    * LocalTime
+    * LocalDateTime
+    * Period
+    * Duration
+    * Formação de Date/Time 
+* Modificador final
+  * Definição
+    * Representação de final no diagrama UML 
+  * Modificador final em uma variável
+    * Variável  de tipo primitivo
+    * Objeto 
+  * Modificador final em um atributo
+    * Atributo primitivo
+    * Objeto 
+  * Modificador final em um método
+  * Modificador final em uma classe
+* Objeto imutável
+  * Definição
+  * Aplicações
+  * Como criar um objeto imutável
+  * Como modificar um objeto imutável 
+* Tipos Genéricos
+  * Definição
+     * Representação de tipos genéricos na UML
+  * Criação de classes com tipos genéricos
+  * Inicialização de objetos com tipos genéricos  
+* Testes Unitários
+  * TDD
+  * JUnit
+    * Adicionar JUnit no projeto Java
+  * Teste assertEquals
+  * Teste assertTrue/assertFalse
+  * Teste assertNull/assertNull
+  * Teste assertArrayEquals  
+  * Teste fail
+  * Teste capturar uma exception
+* JDBC
+  * Definição
+  * Driver de conexão 
+  * Como adicionar o driver de conexão no projeto Java
+  * Criação de uma conexão com o banco de dados
+    * Classe DataManager
+    * String de conexão
+      * Banco SQLite
+      * Banco MySql
+      * Banco Postgre 
+    * Classe Connection
+  * Enviar instruções SQL
+    * Classe Statement
+    * Classe PreparedStatment   
+  * Consultar registros no banco de dados
+    * Classe ResultSet
+    * Obter um registro
+    * Obter uma coleção de registros
+  * Bloco de instruções try-with-resources
+  * Captura de exceções
+    * Driver não encontrado
+    * Conexão inválida
+    * Tabela não encontrada
+    * Registro não encontrado
+    * Erro ao inserir/atualizar
+    * Erro ao consultar
+  * Design Patterns
+    * Singleton Factory para criação de conexões   
+      * Representação na UML
+    * DAO para manipular dados de uma tabela   
+      * Representação na UML
+
+## Listas de Exercícios
+
+[SCHEIBEL, Glaucio. Exercícios de Programação](https://github.com/glaucioscheibel/exercicios)
+
+[Beecrowd](https://www.beecrowd.com.br/judge/pt/)
+
+[Leetcode](https://leetcode.com)
+
+[HackerRank](https://www.hackerrank.com)
+
+[Exercism](https://exercism.org/tracks/java)
 
 
+
+## Referências Bibliográficas
+
+FURGERI, SÉRGIO. Java 8 Ensino Didático: Desenvolvimento e Implementação de Aplicações. Saraiva Educação SA, 2018.
+
+Schildt, Herbert. Java para iniciantes. Bookman Editora, 2015.
+
+Finegan, Edward, and Robert Liguori. OCA Java SE 8: Guia de Estudos para o Exame 1Z0-808. Bookman Editora, 2018.
+
+Bloch, Joshua. Java Efetivo: 3a edição. Alta Books Editora, 2019.
+
+Martin, Robert C. Código limpo: habilidades práticas do Agile software. Alta Books, 2019.
+
+Fowler, Martin. UML Essencial: um breve guia para linguagem padrão. Bookman editora, 2014.
